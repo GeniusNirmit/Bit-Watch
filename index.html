@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title id="Title">Bit Watch</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="bit_watch.ico">
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#Clock">Clock</a></li>
+        <li><a href="#Stop_Watch">Stop Watch</a></li>
+        <li><a href="#Timer">Timer</a></li>
+      </ul>
+    </nav>
+
+    <div class="Clock" id="Clock">
+      <div class="Text">
+        <div class="Clock_Show">
+          <p id="hours"></p>
+          <p>:</p>
+          <p id="minutes"></p>
+          <p>:</p>
+          <p id="seconds"></p>
+          <p id="meridian"></p>
+        </div>
+        <div class="Hour_Format">
+          <h6>12-hour format:</h6>
+          <input type="checkbox" id="clock_format" onclick="clock_time()"/>
+        </div>
+        <div class="Date_Show">
+          <p>
+            <span>
+              <p id="day"></p>
+              <p>,</p>
+              <p id="date"></p>
+              <p id="month"></p>
+              <p id="year"></p>
+            </span>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="Stop_Watch" id="Stop_Watch">
+      <div class="Text">
+        <h1>Stop Watch</h1>
+        <p id="Seconds">00</p>
+        <p>:</p>
+        <p id="Micro">00</p>
+        <p>secs</p>
+      </div>
+      <div class="Button">
+        <div class="Start_Stop">
+          <button class="button" id="Start_Stop_Stopwatch" type="button" name="button">Start</button>
+        </div>
+        <div class="Reset">
+          <button class="button spacing_button" id="Reset_Stopwatch" type="button" name="button">Reset</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="Timer" id="Timer">
+      <div class="Text">
+        <h1>Timer</h1>
+        <div class="Timer_Slots" id="Timer_Slots">
+          <p>Pick Time:</p>
+          <button id="Start_Stop_Timer_Slots_30seconds" class="Start_Stop_Timer_Slots" type="button" name="button">30-seconds</button>
+          <button id="Start_Stop_Timer_Slots_1minute" class="spacing_button Start_Stop_Timer_Slots" type="button" name="button">1-minute</button>
+          <button class="spacing_button Start_Stop_Timer_Slots" id="Start_Stop_Timer_Slots_30minutes" type="button" name="button">30-minute</button>
+          <button id="Start_Stop_Timer_Slots_1hour" class="spacing_button Start_Stop_Timer_Slots" type="button" name="button">1-hour</button>
+          <button id="Start_Stop_Timer_Slots_custom" class="spacing_button Start_Stop_Timer_Slots" type="button" name="button">Custom</button>
+        </div>
+        <p id="hour"></p>
+        <p>:</p>
+        <p id="minute"></p>
+        <p>:</p>
+        <p id="second"></p>
+      </div>
+      <div class="Button">
+        <div class="Start_Stop">
+          <button class="button" id="Start_Stop_Timer" type="button" name="button">Start</button>
+        </div>
+        <div class="Restart">
+          <button class="button spacing_button" id="Restart_Timer" type="button" name="button">Restart</button>
+        </div>
+        <div class="Reset">
+          <button class="button spacing_button" id="Reset_Timer" type="button" name="button">Reset</button>
+        </div>
+      </div>
+    </div>
+
+    <footer id="Credentials">
+	    <p>Created by <a href="https://linkedin.com/in/nirmit-pandya-b0a441232"><span>Nirmit Pandya</span></a>. © 2022</p>
+    </footer>
+    <script src="logic.js" charset="utf-8"></script>
+  </body>
+</html>

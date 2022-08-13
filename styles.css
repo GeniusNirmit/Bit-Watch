@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+*{
+  background-color: #000000;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+nav ul{
+  padding-left: 70%;
+}
+
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  padding: 10% 10% 10% 0.5%;
+  justify-content: space-between;
+}
+
+nav ul li a{
+  color: #ffffff;
+  font-family: 'Teko', sans-serif;
+  font-size: 200%;
+  text-decoration: none;
+}
+
+nav ul li a:hover{
+  background-color: #eec0c6;
+  background-image: linear-gradient(90.1deg, rgb(255, 85, 85) 0.1%, rgb(85, 85, 255) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+p {
+  color: #ffffff;
+  display: inline-block;
+}
+
+h6 {
+  color: #ffffff;
+  display: inline-block;
+  font-family: 'Teko', sans-serif;
+}
+
+.Text {
+  font-family: 'Play', sans-serif;
+  font-size: 400%;
+  text-align: center;
+}
+
+.Button{
+  text-align: center;
+}
+
+.Clock_Show{
+  font-family: 'Alumni Sans Pinstripe', sans-serif;
+  display: block;
+  font-size: 400%;
+  padding-top: 8%;
+}
+
+.Clock_Show p:hover{
+  background-image: linear-gradient(108.9deg, rgb(163, 217, 221) 10.4%, rgb(174, 250, 182) 56.2%, rgb(238, 243, 220) 86.1%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.Hour_Format{
+  display: block;
+  font-size: 50%;
+  padding-bottom: 5%;
+}
+
+.Date_Show {
+  display: block;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 190%;
+  padding-bottom: 10%;
+}
+
+.Date_Show p{
+  background-image: radial-gradient(290px at 8.6% 46.4%, rgb(255, 148, 148) 7.8%, rgb(255, 223, 155) 32.2%, rgb(255, 247, 177) 48.1%, rgb(216, 255, 177) 61%, rgb(177, 255, 253) 75.3%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h1{
+  background-image: radial-gradient(circle at 1.2% 5%, rgb(255, 94, 157) 34.7%, rgb(255, 78, 6) 92.3%);
+  color: #ffffff;
+  font-family: 'Teko', sans-serif;
+  font-size: 200%;
+  text-align: center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+button{
+  background-color: #085f63;
+  border-radius: 300px;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  cursor: grab;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 200%;
+  transition: all 0.5s ease-in-out;
+}
+
+.Start_Stop{
+  display: inline-block;
+  padding-right: 3%;
+}
+
+.Restart{
+  display: inline-block;
+  padding-right: 3%;
+}
+
+.Reset{
+  display: inline-block;
+}
+#Reset_Stopwatch{
+  background: #757a79;
+}
+
+#Reset_Timer{
+  background: #757a79;
+}
+
+.Start_Stop_Timer_Slots{
+  background-color: #155263;
+  font-size: 40%;
+}
+
+#Timer_Slots p{
+  font-size: 50%;
+}
+
+.Stop_Watch p{
+  padding-top: 12%;
+  padding-bottom: 12%;
+}
+
+.Timer h1{
+  padding-top: 5%;
+  padding-bottom: 3%;
+}
+
+.Timer_Slots p{
+  padding-bottom: 5%;
+}
+
+#hour{
+  padding-bottom: 5%;
+}
+
+footer{
+  font-family: 'Permanent Marker', cursive;
+  padding-top: 10%;
+}
+
+footer span{
+  background-image: radial-gradient(circle at 10% 20%, rgb(222, 168, 248) 0%, rgb(168, 222, 248) 21.8%, rgb(189, 250, 205) 35.6%, rgb(243, 250, 189) 52.9%, rgb(250, 227, 189) 66.8%, rgb(248, 172, 172) 90%, rgb(254, 211, 252) 99.7%);
+  font-size: 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+footer a{
+  font-size: 120%;
+  text-decoration: none;
+}
